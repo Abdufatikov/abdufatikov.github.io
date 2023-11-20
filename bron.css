@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+      
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона вашего заголовка */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.menu-button {
+    background-color: #ffffff; /* Цвет фона кнопки Меню */
+    color: black; /* Цвет текста кнопки Меню */
+    margin-left: 100px;
+}
+
+.contacts-button {
+    background-color: #ffffff; /* Цвет фона кнопки Контакты */
+    color: black; /* Цвет текста кнопки Контакты */
+    margin-left: 50px;
+}
+
+/* Добавьте стили для элементов списка */
+.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.action-button {
+    background-color: rgb(226, 17, 17); /* Цвет фона кнопок */
+    color: rgb(247, 247, 247); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px; /* Установите значение по вашему усмотрению для округленных углов */
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.logotip {
+    /* Здесь можно добавить стили для логотипа, но фотографию нужно указать в HTML */
+    width: 80px; /* Размер логотипа */
+    height: 80px;
+}
+
+.logotip img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; /* Превращает квадратное изображение в круглое */
+}
+.city{
+height:35px ;
+width: 350px;
+border: 2px solid black;
+}
+#bron {
+    text-align: center;
+}
+
+.forms {
+    display:flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+}
+.brat {
+margin-left: 10px;
+margin-right: 10px;
+font-size: larger;
+width: 350px;
+
+}
+.data {
+    padding-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+.time-select {
+border: 3px solid black;
+margin: 10px;
+width: 220px;
+text-align:center
+}
+.forms2 {
+    display:flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.bronir {
+padding-left: 860px;
+padding-bottom: 30px;
+padding-top: 30px;    
+}
+.red-footer {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Отступ между элементами */
+}
+
+.contact-info p {
+    margin: 0;
+}
+.red-footer a {
+    color: white; /* Set the text color for links in red-footer */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.red-footer a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+.subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Отступ между контактами и формой подписки */
+    
+}
+
+.subscribe-form input {
+    padding: 5px;
+    margin-bottom: 10px; /* Отступ между полем ввода и кнопкой */
+}
+
+.subscribe-form button {
+    background-color:rgb(247, 247, 247); /* Цвет фона кнопок */
+    color:  rgb(226, 17, 17); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Отступ между формой подписки и иконками */
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Размер логотипов */
+    height: 30px; /* Размер логотипов */
+}
+
+.copyright {
+    text-align: center;
+}

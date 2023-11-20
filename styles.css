@@ -1,0 +1,446 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+      
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона вашего заголовка */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.menu-button {
+    background-color: #ffffff; /* Цвет фона кнопки Меню */
+    color: black; /* Цвет текста кнопки Меню */
+    margin-left: 100px;
+}
+
+.contacts-button {
+    background-color: #ffffff; /* Цвет фона кнопки Контакты */
+    color: black; /* Цвет текста кнопки Контакты */
+    margin-left: 50px;
+}
+
+/* Добавьте стили для элементов списка */
+.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.action-button {
+    background-color: rgb(226, 17, 17); /* Цвет фона кнопок */
+    color: rgb(247, 247, 247); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px; /* Установите значение по вашему усмотрению для округленных углов */
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.logotip {
+    /* Здесь можно добавить стили для логотипа, но фотографию нужно указать в HTML */
+    width: 80px; /* Размер логотипа */
+    height: 80px;
+}
+
+.logotip img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; /* Превращает квадратное изображение в круглое */
+}
+.welcome-section {
+    position: relative;
+    background: url('main/img/background-menu.jpg') center/cover no-repeat; 
+    color: rgb(5, 5, 5);
+    text-align: center;
+    height: 600px; /* Установите желаемую высоту секции */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-section2 {
+    position: relative;
+    background: url('main/img/kuxnya.jpg') center/cover no-repeat; 
+    color: rgb(5, 5, 5);
+    text-align: center;
+    height: 300px; /* Установите желаемую высоту секции */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-content {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50px; /* Закругленные углы контейнера с текстом */
+    max-width: 600px; /* Максимальная ширина контента */
+}
+
+.welcome-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px; /* Увеличьте расстояние между заголовком и текстом */
+}
+
+.welcome-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.welcome-content .action-button {
+    background-color: red; /* Цвет фона кнопки */
+    color: rgb(255, 254, 254); /* Цвет текста кнопки */
+    border: none;
+    border-radius: 25px;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute; /* Переводим кнопку в абсолютное позиционирование */
+    bottom: 15%; /* Располагаем кнопку внизу */
+    right: 46%; 
+}
+
+.wrapper {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .flex {
+    display: inline-flex;
+    padding: 20px 20px;
+  }
+  
+  .cart {
+    width: 300px;
+    background-color: #fff;
+  }
+  
+  .cart:not(:first-child) {
+    margin-left: 20px;
+  }
+  
+  img {
+    display: inline-block;
+    max-width: 200px;
+    object-fit: cover;
+
+  }
+  
+  .description {
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 100px;
+  }
+  
+  
+  
+  .button {
+    margin: 20px auto;
+  }
+  
+  .button button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(226, 17, 17);;
+    border-radius: 30px;
+    transition: scale 0.1s ease-in;
+    color: #fff;
+  }
+  
+  .button:hover button {
+    transform: scale(1.1);
+    background-color: rgb(226, 17, 17);;
+  }
+
+
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.service {
+    text-align: center;
+    width: 48%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.service img {
+    width: 250px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.rounded-button {
+    background-color: rgb(226, 17, 17); /* Цвет фона кнопок */
+    color: rgb(247, 247, 247); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.rounded-button2 {
+    background-color:rgb(247, 247, 247); /* Цвет фона кнопок */
+    color:  rgb(226, 17, 17); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.booking-info {
+    text-align: center; /* Выравниваем текст и форму по центру */
+    padding: 10px;
+    
+    
+}
+
+.booking-form {
+    display: inline-block; /* Отображаем форму как блок внутри .booking-info */
+    text-align: left; /* Выравниваем элементы формы по левому краю */
+    background-color: red; /* Красный фон внутри формы */
+    padding: 10px; /* Отступ внутри формы */
+    border-radius: 10px; /* Закругленные углы для формы */
+}
+
+.booking-form label, .booking-form input {
+    display: block;
+    margin-bottom: 10px;
+}
+.service:nth-child(1) {
+    background-color: white; /* Белый фон для первой услуги */
+}
+
+.service:nth-child(2) {
+    background-color: red; /* Красный фон для второй услуги */
+}
+.instagram-section {
+    text-align: center; /* Выравниваем текст по центру */
+    padding: 20px; /* Добавляем отступ вокруг блока */
+}
+
+.instagram-images {
+    display: flex; /* Размещаем изображения горизонтально */
+    justify-content: space-between; /* Равномерное распределение между изображениями */
+    margin-top: 15px;
+}
+
+.instagram-images img {
+    width: 18%; /* Устанавливаем ширину изображений и добавляем отступ между ними */
+    margin-right: 2%; /* Отступ между изображениями */
+}
+.instagram-text {
+    font-size: 40px; /* Больший размер шрифта для текста "Подпишитесь в инстаграмме" */
+    
+    
+}
+
+.instagram-username {
+    color: red; /* Красный цвет только для @U3 */
+    font-size: 50px; /* Уменьшенный размер шрифта для @U3 */
+    margin-top: 10px; /* Оставим отступ сверху */
+    text-decoration: none; /* Уберем подчеркивание у ссылки */
+    font-weight: bold; /* Сделаем текст жирным */
+    
+}
+
+.instagram-username:hover {
+    color: darkred; /* Измененный цвет при наведении */
+}
+.red-footer {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Отступ между элементами */
+    
+}
+
+.contact-info p {
+    
+    margin: 0;
+}
+.red-footer a {
+    color: white; /* Set the text color for links in red-footer */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.red-footer a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+.subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Отступ между контактами и формой подписки */
+    
+}
+
+.subscribe-form input {
+    padding: 5px;
+    margin-bottom: 10px; /* Отступ между полем ввода и кнопкой */
+}
+
+.subscribe-form button {
+    background-color:rgb(247, 247, 247); /* Цвет фона кнопок */
+    color:  rgb(226, 17, 17); /* Цвет текста кнопок */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Отступ между формой подписки и иконками */
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Размер логотипов */
+    height: 30px; /* Размер логотипов */
+}
+
+.copyright {
+    text-align: center;
+}
+.photo-menu {
+    text-align: center;
+    margin-top: 20px;
+  
+    
+
+}
+
+
+.photo-menu img {
+    width: 100%; /* Устанавливаем ширину фотографии на 100% контейнера */
+    height: 1200px; /* Автоматическая высота для сохранения соотношения сторон */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+    position: relative;
+}
+
+.photo-menu {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+    position: relative;
+}
+
+.photo-menu {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.red-text {
+    color: red;
+}
+
+.menu h1, .menu-category h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-category {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 5px 0;
+}
