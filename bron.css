@@ -103,11 +103,6 @@ margin-right: 10px;
 font-size: larger;
 width: 350px;
 
-}
-select#guest.booking-dropdown {
-    padding: 350px 35px;
-}
-
 .data {
     padding-bottom: 40px;
     border-bottom: 3px solid black;
