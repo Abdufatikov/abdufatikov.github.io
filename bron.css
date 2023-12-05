@@ -84,7 +84,21 @@ border: 2px solid black;
     margin-right: 300px;
     justify-content: center;
 }
-.brat {
+.brat1 {
+margin-left: 10px;
+margin-right: 10px;
+font-size: larger;
+width: 350px;
+
+}
+.brat2 {
+margin-left: 10px;
+margin-right: 10px;
+font-size: larger;
+width: 350px;
+
+}
+.brat3 {
 margin-left: 10px;
 margin-right: 10px;
 font-size: larger;
