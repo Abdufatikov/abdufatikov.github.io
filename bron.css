@@ -84,26 +84,13 @@ border: 2px solid black;
     margin-right: 300px;
     justify-content: center;
 }
-.brat1 {
-margin-left: 20px;
-margin-right: 20px;
-font-size: larger;
-    width: 350px;
-
-}
-.brat2 {
-margin-left: 20px;
-margin-right: 20px;
-font-size: larger;
-width: 350px;
-
-}
-.brat3 {
+.brat {
 margin-left: 10px;
 margin-right: 10px;
 font-size: larger;
 width: 350px;
 
+}
 .data {
     padding-bottom: 40px;
     border-bottom: 3px solid black;
