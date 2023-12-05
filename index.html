@@ -24,7 +24,6 @@
                 <a href="dostavka.html"> <div class="action-button">Доставка</div> </a>
             </div>
         </header>
-    </body>
     <section class="welcome-section">
         <div class="welcome-background"></div>
         <div class="welcome-content">
@@ -33,46 +32,38 @@
             <a href="bron.html"><div class="action-button">Забронировать</div></a>
         </div>
     </section>
+   </body>
     <div class="wrapper">
-        <div class="flex">
-                <div class="cart">
+    <div class="flex">
+        <div class="cart">
             <div class="img">
-              <img src="main/img/soup.png" alt="">
+                <img src="main/img/soup.png" alt="">
             </div>
             <div class="description">Супы</div>
-            
             <div class="button">
-              <button type="button"> Заказать</button>
+                <button type="button">Заказать</button>
             </div>
-          </div>
-          <div class="cart">
+        </div>
+        <div class="cart">
             <div class="img">
-              <img src="main/img/meat.png" alt="">
+                <img src="main/img/meat.png" alt="">
             </div>
             <div class="description">Мясо</div>
-            
             <div class="button">
-              <button type="button"> Заказать</button>
+                <button type="button">Заказать</button>
             </div>
-          </div>
-          <div class="cart">
+        </div>
+        <div class="cart">
             <div class="img">
-              <img src="main/img/shashlik.png" alt="">
+                <img src="main/img/shashlik.png" alt="">
             </div>
             <div class="description">Шашлыки</div>
-            
             <div class="button">
-              <button type="button"> Заказать</button>
+                <button type="button">Заказать</button>
             </div>
-          </div>
-          
-          </div>
-          
-          </div>
-      
         </div>
-      
-      </div>
+    </div>
+</div>
       <section class="welcome-section2">
         <div class="welcome-background2"></div>
     </section>
@@ -151,18 +142,23 @@
 </html>
 <script>
     // Функция для плавной прокрутки к якорю
-    function scrollToAnchor(anchor) {
-        const target = document.querySelector(anchor);
+function scrollToAnchor(anchor) {
+    const target = document.querySelector(anchor);
 
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-            });
-        }
+    if (target) {
+        target.scrollIntoView({
+            behavior: 'smooth',
+        });
     }
+}
 
-    document.querySelector('a[href="#contact-section"]').addEventListener('click', function (e) {
+// Добавляем обработчик события для ссылки с якорем "#contact-section"
+const contactLink = document.querySelector('a[href="#contact-section"]');
+
+if (contactLink) {
+    contactLink.addEventListener('click', function (e) {
         e.preventDefault();
         scrollToAnchor(this.getAttribute('href'));
     });
+}
 </script>
